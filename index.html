@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link rel="icon" type="image/x-icon" href="./Images/Icon.png" />
+
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/mobiles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main-bg">
+      <section class="contact-section">
+        <div class="form-wrapper">
+          <h1 class="title">CONTACT US</h1>
+
+          <form action="" method="GET" class="contact-form">
+            <div class="input-group">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+
+            <div class="textarea-group">
+              <label for="message">Please provide more details below.</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+              ></textarea>
+            </div>
+
+            <button type="submit">SEND</button>
+          </form>
+        </div>
+
+        <div class="info-wrapper">
+          <div class="icon-bar">
+            <a href="tel:+995555123456" class="icon-link">
+              <img src="./Images/call.svg" alt="Phone Icon" />
+            </a>
+            <a href="mailto:example@domain.com" class="icon-link">
+              <img src="./Images/mail.svg" alt="Email Icon" />
+            </a>
+            <a href="https://maps.google.com" target="_blank" class="icon-link">
+              <img src="./Images/address.svg" alt="Location Icon" />
+            </a>
+          </div>
+
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.127202302302!2d44.783333!3d41.716667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDQzJzAwLjAiTiA0NMKwNDcnMDAuMCJF!5e0!3m2!1sen!2sge!4v1642940000000!5m2!1sen!2sge0"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
